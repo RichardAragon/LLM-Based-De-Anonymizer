@@ -1,0 +1,72 @@
+# ETHICS.md
+
+## Why this document exists
+
+This is not a legal disclaimer. It's an attempt at an honest account of the tradeoffs behind releasing this tool publicly.
+
+---
+
+## The core argument for releasing this
+
+Deanonymization capabilities exist. They've been available to well-resourced actors — corporations, state agencies, sophisticated threat actors — for years. The asymmetry of who has access to these capabilities is itself a harm: it means accountability flows primarily downward (individuals can be identified by institutions) rather than in all directions.
+
+Releasing a structured, transparent methodology levels this asymmetry somewhat. It also makes the methodology legible — which means defenses can be built, legal frameworks can be written with accurate technical understanding, and the public conversation can be grounded in what's actually possible rather than speculation.
+
+Containment doesn't prevent exploitation. It determines *who* exploits it.
+
+---
+
+## Who this is for
+
+- Journalists investigating public-interest matters
+- Security researchers studying coordinated inauthentic behavior
+- Individuals who are being harassed or stalked and want to understand who is targeting them
+- Threat intelligence analysts at organizations defending against targeted attacks
+- Academics studying online identity, anonymity, and attribution
+
+---
+
+## Who this is not for
+
+This tool is specifically not designed for — and the author explicitly does not consent to it being used for:
+
+- **Targeting private individuals** who have not engaged in public harm and who are not public figures
+- **Harassment and stalking** — using attribution to enable intimidation, threats, or surveillance
+- **Authoritarian governments** targeting dissidents, journalists, activists, or minority groups
+- **Commercial data aggregation** — building profiles for sale or advertising targeting
+- **Outing** individuals in ways that could put them at safety risk (LGBTQ+ people in hostile environments, whistleblowers, abuse survivors)
+
+The author understands that publishing a tool means losing control over how it's used. That tradeoff was made with open eyes.
+
+---
+
+## What the tool does and doesn't do
+
+**It does:**
+- Query publicly available information
+- Apply structured reasoning to connect public signals
+- Score confidence explicitly so outputs can be interrogated
+
+**It does not:**
+- Access private accounts, DMs, or non-public data
+- Bypass authentication or access controls
+- Scrape at scale in violation of platform Terms of Service
+- Store or aggregate results centrally
+
+---
+
+## On anonymity itself
+
+Anonymity is not inherently bad. It protects abuse survivors, whistleblowers, activists in hostile political environments, LGBTQ+ people in unsupportive communities, people with stalkers, people exploring sensitive health or identity questions, and many others.
+
+This tool exists because anonymous *harm* — coordinated harassment, fraud, disinformation — is also real and also affects real people. The answer to that tension is not to pretend attribution is impossible, but to make the capability available in a way that's transparent, auditable, and subject to social accountability.
+
+The calibration stage of this pipeline is designed to resist overconfidence. A tool that makes it easy to be wrong with high confidence is worse than no tool at all.
+
+---
+
+## Legal note
+
+OSINT on public information is legal in most jurisdictions. Using this tool to facilitate stalking, harassment, or discrimination may not be. You are responsible for your own legal compliance.
+
+The author is not a lawyer. This is not legal advice.
